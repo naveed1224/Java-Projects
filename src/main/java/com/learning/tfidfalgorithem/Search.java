@@ -1,5 +1,6 @@
 package com.learning.tfidfalgorithem;
 
+<<<<<<< HEAD
 import com.learning.tfidfalgorithem.model.DocumentData;
 import com.learning.tfidfalgorithem.search.TFIDF;
 
@@ -56,4 +57,10 @@ public class Search {
         }
     }
 
+=======
+public class Search {
+    public static void main(String[] args) {
+
+    }
+>>>>>>> main
 }

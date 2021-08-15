@@ -19,7 +19,10 @@ public class TFIDF {
 
         double termFreq = (double)count/books.size();
         return termFreq;
+<<<<<<< HEAD
         //test
+=======
+>>>>>>> main
     }
 
     public static DocumentData createDocumentData(List<String> words, List<String> terms){
@@ -111,7 +114,11 @@ public class TFIDF {
         return words;
     }
 
+<<<<<<< HEAD
     public static List<String> getWordsFromLine(String line) {
+=======
+    private static List<String> getWordsFromLine(String line) {
+>>>>>>> main
         return Arrays.asList(line.split("(\\.)+|(,)+|( )+|(-)+|(\\?)+|(!)+|(;)+|(:)+|(/d)+|(/n)"));
     }
 }
