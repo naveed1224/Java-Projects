@@ -19,6 +19,7 @@ public class TFIDF {
 
         double termFreq = (double)count/books.size();
         return termFreq;
+        //test
     }
 
     public static DocumentData createDocumentData(List<String> words, List<String> terms){
