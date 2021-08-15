@@ -111,11 +111,8 @@ public class TFIDF {
         return words;
     }
 
-<<<<<<< HEAD
     public static List<String> getWordsFromLine(String line) {
-=======
-    private static List<String> getWordsFromLine(String line) {
->>>>>>> main
+
         return Arrays.asList(line.split("(\\.)+|(,)+|( )+|(-)+|(\\?)+|(!)+|(;)+|(:)+|(/d)+|(/n)"));
     }
 }
